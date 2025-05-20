@@ -11,10 +11,10 @@ os.system('cls')
 FILE_CSV = Path(__file__).parent / 'aula180.csv'
 
 client_list = [
-    {'Name': 'Adryel Otto', 'Address': 'Av. Brasilia, 4380'},
-    {'Name': 'Aline Persona', 'Address': 'Rua Alfredo Jaime Fellipe, 130'},
-    {'Name': 'Matheus Gimenes', 'Address': 'Roberto Lambach, 92'},
-    {'Name': 'Vinicius Knauber', 'Address': 'Humberto Geronasso, 72'},
+    {'Name': 'Adryel Otto', 'Address': 'Rua Bananas, 140'},
+    {'Name': 'Aline Persona', 'Address': 'Rua Morangos, 14'},
+    {'Name': 'Matheus Gimenes', 'Address': 'Av. Abacaxis, 25'},
+    {'Name': 'Vinicius Knauber', 'Address': 'Travessa Pêssego, Sem número'},
 ]
 
 #   ---- ESCREVER EM FORMATO DE LISTAS ----
