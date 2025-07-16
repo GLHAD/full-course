@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.main-content h2 {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50px;
+    color: white;
+    background: black;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}

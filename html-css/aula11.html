@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        label {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="#" method="get" target="_blank" autocomplete="off">
+            <h1>Cabeçalho</h1>
+            <p>Exemplos de formulários</p>
+            <fieldset>
+                <legend>Descrição</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"
+                    placeholder="Insira o seu nome">
+                </p>
+                <p>
+                    <label for="dev">Checkbox 1:</label>
+                    <input type="checkbox" id="dev" name="dev"
+                    value="Sim">
+                </p>
+                <p>
+                    <label for="dev2">Checkbox 2:</label>
+                    <input type="checkbox" id="dev2" name="dev2"
+                    value="Sim">
+                </p>
+
+                <p>
+                    Exemplo de seleção:<br>
+                    <label for="Esse">Esse:</label>
+                    <input type="radio" id="Esse" name="selection"
+                    value ="Esse"><br>
+                    <label for="Isso">Isso:</label>
+                    <input type="radio" id="Isso" name="selection"
+                    value ="Isso"><br>
+                    <label for="Aquele">Aquele:</label>
+                    <input type="radio" id="Aquele" name="selection"
+                    value ="Aquele"><br>                                
+                </p>
+
+                <p>
+                    <label for="data">Data:</label>
+                    <input type="date" id="date" name="data" value="2025-01-01">
+                </p>
+                <p>
+                    <label for="date-time">Data:</label>
+                    <input type="datetime-local" id="date-time" name="date-time"
+                    value="2025-01-01T20:00">
+                </p>
+                <p>
+                    <label for="time">Data:</label>
+                    <input type="time" id="time" name="time"
+                    value="20:00:00">
+                </p>
+                <p>
+                    <label for="cor">Cor:</label>
+                    <input type="color" id="cor" name="cor"
+                    value="#ffffff">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"
+                    placeholder="seu.email@email.com">
+                </p>
+                <p>
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password"
+                    placeholder="Digite sua senha">
+                </p>                
+                <p>
+                    <label for="foto">Sua foto:</label>
+                    <input type="file" id="foto" name="foto"
+                    accept="image/*" multiple>
+                </p>
+                <p>
+                    <label for="number">Numero:</label>
+                    <input type="number" id="number" name="number"
+                    placeholder="Digite"
+                    min="0" max="10" step="2">
+                </p>
+                <p>
+                    <label for="Range">Range:</label>
+                    <input type="Range" id="Range" name="Range"
+                    min="0" max="10" step="2">
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="2">
+                        <option value="4">
+                        <option value="6">
+                        <option value="8">
+                        <option value="10">
+                    </datalist>
+                </p>
+                    <label for="url">URL:</label>
+                    <input type="url" id="url" name="url"
+                    placeholder="URL">
+                </p>
+                </p>
+                    <label for="Search">Procurar:</label>
+                    <input type="Search" id="Search" name="Search"
+                    placeholder="Search">
+                </p>
+                </p>
+                    <label for="select">Selecione alguma opção:</label>
+                    <select id="select">
+                        <optgroup label="Opções">
+                            <option value="A" label="Opção A">    
+                            <option value="B" label="Opção B" selected>    
+                            <option value="C" label="Opção C">    
+                            <option value="D" label="Opção D">    
+                        </optgroup>
+                    </select>
+                </p>
+                </p>
+                    <label for="textarea">TextArea:</label>
+                    <textarea name="Area de texto" id="textarea"
+                    rows="6" cols="30">Podemos colocar um texto padrão interno
+                    </textarea>
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Refazer</button>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
